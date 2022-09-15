@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comfy House</title>
+    <link rel="stylesheet" href="1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+  
+  
+    <div class="container" id="done">
+
+   <div id="unlogged-nav">
+      <nav >
+        <a>
+      <img src="./images/logo.svg" alt="" /></a>	<ul>
+        <li><a href="login.html">login</a></li>
+        <li><a href="regesiter.html">sign up</a></li>
+        
+        </ul>
+        </nav>
+
+     </div>
+     <div  id="logged-nav">
+      <nav >
+      <a href="1.html"> <img src="./images/logo.svg" alt="" /></a> 
+      <div id="cart">
+          <span class="username"></span>
+          <div class="count-cont">
+            <i class="fas fa-shopping-cart " id="icon"></i>
+            <span id="count">0</span></div>
+            <span class="logout">logout</span>
+        </div>
+      </nav>
+      </div>
+      <div class="cart-cont">
+        <i class="fa-solid fa-x"></i>
+
+      <div class="cart">
+
+</div>
+     <div class="del-cont"> 
+      <div id="total"></div>
+      <button class="clear"> <span> delete all</span></button>
+    </div>
+  </div>
+
+      <div class="bground">
+
+          <img src="./images/hero-bcg.jpeg" alt="">
+      </div>
+      <h2>our products</h2> 
+
+      <form id="search" autocomplete="off">
+<input type="text" id="search-inp">
+<div class="search-icon"><i class="fas fa-search"></i></div>
+<div class="search-result"></div>
+      </form>
+
+      <div id="products">
+
+      </div>
+    </div>
+    
+    <script src="1.js"></script>  
+  </body>
+</html>

@@ -1,0 +1,121 @@
+nav{ 
+width:100%;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;}
+	
+nav >a{
+	display:inline-block;
+	width:40%;
+	margin-left:5%;
+	display:flex;
+	justify-content:flex-start;
+	
+}
+nav ul{
+	list-style:none;
+	display:flex;
+	justify-content:space-between;
+	
+	cursor:pointer;
+	text-transform:capitalize;
+	letter-spacing:.7px;
+	margin-right:20px;
+
+	
+	
+}
+nav ul li{
+	margin:0 20px;
+	position:relative;
+
+}
+nav ul li a{
+color:chocolate;
+text-decoration:none;
+}
+nav ul li:before{
+position:absolute
+;
+content:'';
+top:110%;
+left:0%;
+width:0;
+background:chocolate;
+height:2px;
+transition:.3s;
+
+}
+nav ul li:hover:before{
+		width:100%;
+	
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	
+}
+form{
+	width: 400px;
+padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg,rgba(32, 15, 2, 0.692),rgba(245, 222, 179, 0.541));
+
+}
+form input{
+	width: 100%;
+	outline: 0;
+	border: none;
+	border-bottom: 2px solid chocolate;
+	margin:10px 0;
+	padding: 0 10px;
+	height: 25px;
+}
+form button {
+	padding: 10px;
+	outline: 0;
+	border: none;
+	color:chocolate;
+	transition: .3s;
+	letter-spacing: 1px;
+}
+form button:hover{
+	background-color:chocolate;
+	color:white;
+	
+
+}
+h4{
+	color:transparent;
+	background:linear-gradient(210deg,chocolate,black);
+-webkit-background-clip:text;	
+	letter-spacing:2px;
+	margin:10px 0;
+}
+
+.sign{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	gap:10px;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.sign a{
+	cursor: pointer;
+	color:chocolate;
+	transition:.3s;
+	text-decoration: none;
+}
+.sign a:hover{
+	color:white;
+}
